@@ -1,0 +1,24 @@
+Package: PioneerTestCohorts
+Type: Package
+Title: A Central Package for Evaluation the Cohorts Used in the PIONEER workgroup.
+Version: 0.0.1
+Author: Martijn Schuemie [aut, cre]
+Maintainer: Martijn J. Schuemie <schuemie@ohdsi.org>
+Description: A central package for evaluation the cohorts used in the PIONEER workgroup.
+Depends:
+    DatabaseConnector (>= 2.2.0)
+Imports:
+	CohortDiagnostics (>= 0.1.2),
+	ParallelLogger,
+	OhdsiSharing (>= 0.2.1),
+	readr
+Suggests:
+    knitr,
+    rmarkdown
+Remotes:
+    ohdsi/CohortDiagnostics,
+    ohdsi/OhdsiSharing
+License: Apache License 2.0
+VignetteBuilder: knitr
+LazyData: TRUE
+RoxygenNote: 7.0.2
