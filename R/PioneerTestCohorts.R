@@ -14,9 +14,9 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-#' Covid19CohortEvaluation
+#' PioneerTestCohorts
 #'
 #' @docType package
-#' @name Covid19CohortEvaluation
+#' @name PioneerTestCohorts
 #' @import DatabaseConnector
 NULL

@@ -9,7 +9,7 @@
 #update.packages(ask = "graphics")
 
 # Running the package -------------------------------------------------------------------------------
-devtools::install_local("PioneerTestCohorts/",force=T)
+#devtools::install_local("PioneerTestCohorts/",force=T)
 library(PioneerTestCohorts)
 
 # Optional: specify where the temporary files (used by the ff package) will be created:
